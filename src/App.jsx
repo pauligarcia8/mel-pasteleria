@@ -1,14 +1,13 @@
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <NavBar />
       <main className="flex-1 w-full">
-        <div className="max-w-screen-xl mx-auto w-full">
-          Contenido principal
-        </div>
+        <Hero />
       </main>
       <Footer />
     </div>
