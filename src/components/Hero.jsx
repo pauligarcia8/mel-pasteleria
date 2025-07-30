@@ -2,7 +2,7 @@ import heroImage from "../assets/hero_image.jpg";
 import { PhoneIcon, ShoppingCartIcon } from "@heroicons/react/16/solid";
 const Hero = () => {
     return (
-        <section className="bg-gradient-to-tr from-[#b7e4c7] via-[#f4acb7] to-[#e6ccb2] w-full py-6">
+        <section className="bg-gradient-to-tr from-[#b7e4c7] via-[#f4acb7] to-[#e6ccb2] w-full py-20">
           <div className="flex items-start justify-between max-w-screen-xl mx-auto ">
             <div className="flex flex-col text-start w-6/12 leading-loose text-white">
               <h1 className="text-7xl font-semibold">
