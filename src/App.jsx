@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Specialities from "./components/Specialities";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main className="flex-1 w-full">
         <Hero />
         <Specialities />
+        <Gallery />
       </main>
       <Footer />
     </div>
