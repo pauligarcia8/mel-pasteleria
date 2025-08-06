@@ -26,7 +26,7 @@ const Gallery = () => {
         title="Galeria de Productos"
         body="Una muestra de nuestras deliciosas creaciones"
       />
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-10">
         {images.map((image, index) => (
           <div key={index} className="overflow-hidden rounded-xl shadow-lg">
             <img
