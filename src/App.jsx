@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Specialities from "./components/Specialities";
 import Gallery from "./components/Gallery";
+import OurHistory from "./components/OurHistory";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <Specialities />
         <Gallery />
+        <OurHistory />
       </main>
       <Footer />
     </div>
